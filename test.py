@@ -1,5 +1,5 @@
 # число фибоначчи
-def fib_func(num):
+def fib_func(num:int)->int:
     if num <= 1:
         return num
     else:
@@ -7,7 +7,7 @@ def fib_func(num):
 
 
 # функция проверяет является ли число простым
-def is_simple_num(num):
+def is_simple_num(num:int)->bool:
     i = 2
     while i < num:
         if num % i == 0:
